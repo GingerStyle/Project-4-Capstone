@@ -4,10 +4,13 @@ import Spotify_Object
 import Eventful_API
 import Eventful_Object
 
+#get environment variable api keys
 SPOTIFY_KEY = os.environ.get('')
 EVENTFUL_KEY = os.environ.get('EventfulKey')
 
-
+#instantiate instances of APIs
+spotify_api = Spotify_API()
+eventful_api = Eventful_API()
 
 
 #if no error send back top 3 concert dates
