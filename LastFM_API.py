@@ -1,15 +1,15 @@
 import requests
 from requests.exceptions import HTTPError
 
-URL = 'http://api.eventful.com/json/events/search'
+URL = 'http://ws.audioscrobbler.com/2.0/'
 
-class EventfulAPI():
+class LastFMAPI():
 
     #a function to query the api for concert dates
     def get_events(self, search_term, key):
         #setup parameters for the api query q=keywords, c=category and set to music to enforce
         # that we are always searching for music
-        parameters = {'q': {search_term}, 'c': 'music', 'app_key': key}
+        parameters = {'method': 'artist.gettopalbums','artist': {search_term}, 'app_key': key, 'format': 'json'}
 
         #request data from eventful.com
         try:

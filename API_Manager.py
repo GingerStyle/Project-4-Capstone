@@ -1,15 +1,15 @@
 import os
-import Spotify_API
-import Spotify_Object
+import LastFM_API
+import LastFM_Object
 import Eventful_API
 import Eventful_Object
 
 #get environment variable api keys
-SPOTIFY_KEY = os.environ.get('')
+LASTFM_KEY = os.environ.get('LastFMKey')
 EVENTFUL_KEY = os.environ.get('EventfulKey')
 
 #instantiate instances of APIs
-spotify_api = Spotify_API()
+lastfm_api = LastFM_API()
 eventful_api = Eventful_API()
 
 
