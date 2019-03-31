@@ -35,10 +35,11 @@ class save_artist():
         saving_artist = input("Would you like to save the Group/Artist? y/n: ")
 
     if saving_artist.lower() == "y":
-
+        saved_output = artist_output
         
 
     if saving_artist.lower() == "n":
+        break
 
 def main():
     ask_to_continue()
