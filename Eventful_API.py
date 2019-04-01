@@ -9,7 +9,7 @@ class EventfulAPI():
     def get_events(self, search_term, key):
         #setup parameters for the api query q=keywords, c=category and set to music to enforce
         # that we are always searching for music
-        parameters = {'q': {search_term}, 'c': 'music', 'app_key': key}
+        parameters = {'q': {search_term}, 'c': 'music', 'app_key': {key}}
 
         #request data from eventful.com
         try:

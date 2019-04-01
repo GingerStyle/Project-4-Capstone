@@ -8,7 +8,7 @@ class LastFMAPI():
     #a function to query the api for concert dates
     def get_events(self, search_term, key):
         #setup parameters for the api query
-        parameters = {'method': 'artist.gettopalbums','artist': {search_term}, 'app_key': key, 'format': 'json'}
+        parameters = {'method': 'artist.gettopalbums','artist': {search_term}, 'app_key': {key}, 'format': 'json'}
 
         #request data from eventful.com
         try:
