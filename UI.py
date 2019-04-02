@@ -1,3 +1,5 @@
+from Main_Controller import *
+
 class ask_for_input():
 
     search_param = input("Please enter a Group/Artist name: ")
@@ -16,6 +18,8 @@ class ask_to_continue():
 
             ask_for_input()
 
+            artist_output = "The Artist " + artist_name + " is having concerts at " + concert_list + " and their albums are " + album_list)
+
             save_artist()
 
         if continue_searching.lower() == "n":
@@ -31,8 +35,13 @@ class save_artist():
         saving_artist = input("Would you like to save the Group/Artist? y/n: ")
 
     if saving_artist.lower() == "y":
-
+        saved_output = artist_output
         
 
     if saving_artist.lower() == "n":
+        break
 
+def main():
+    ask_to_continue()
+
+main()
