@@ -1,8 +1,8 @@
 import requests
 import requests_cache
-from UI.py import *
-from API_MAnger.py import *
-from Bookmarks.py import *
+from UI import *
+from API_Manager import *
+from Bookmarks import *
 
 #todo create cache for api responses
 #todo divide up work between team members
