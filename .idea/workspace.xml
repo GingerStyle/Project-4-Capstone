@@ -5,8 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/Project 4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project 4.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+
+
       <change beforePath="$PROJECT_DIR$/Bookmarks.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bookmarks.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Database.py" beforeDir="false" afterPath="$PROJECT_DIR$/Database.py" afterDir="false" />
+
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +22,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/API_Manager.py">
           <provider selected="true" editor-type-id="text-editor">
+
+            <state relative-caret-position="850">
+              <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+
             <state relative-caret-position="412">
               <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -174,7 +182,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab 5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -242,9 +250,13 @@
       <workItem from="1553884916477" duration="628000" />
       <workItem from="1553890410700" duration="1319000" />
       <workItem from="1554059571925" duration="2569000" />
+
+      <workItem from="1554142863539" duration="4716000" />
+
       <workItem from="1554142863539" duration="3802000" />
       <workItem from="1554296649555" duration="1445000" />
       <workItem from="1554298115854" duration="2014000" />
+
     </task>
     <task id="LOCAL-00001" summary="added some todos">
       <created>1551910247658</created>
@@ -257,11 +269,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+
+    <option name="totallyTimeSpent" value="33915000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="1" width="1380" height="744" extended-state="0" />
+
     <option name="totallyTimeSpent" value="36460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
+
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2077748" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -321,6 +340,9 @@
         </state>
       </provider>
     </entry>
+
+    <entry file="file://$PROJECT_DIR$/Eventful_Object.py">
+
     <entry file="file://$PROJECT_DIR$/LastFM_Object.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -346,6 +368,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Main_Controller.py">
+
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
@@ -372,10 +395,27 @@
         </state>
       </provider>
     </entry>
+
+    <entry file="file://$PROJECT_DIR$/LastFM_Object.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API_Manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+
     <entry file="file://$PROJECT_DIR$/Database.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="30" column="80" selection-start-line="30" selection-start-column="80" selection-end-line="30" selection-end-column="80" />
+
         </state>
       </provider>
     </entry>
